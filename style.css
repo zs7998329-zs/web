@@ -1,0 +1,40 @@
+body {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #ffb6c1, #ffd700);
+  color: #333;
+  overflow: hidden;
+}
+
+.container {
+  margin-top: 10%;
+}
+
+button {
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #ff1493;
+}
+
+.hidden {
+  display: none;
+}
+
+.cake {
+  width: 50px;
+  margin: 20px;
+  animation: float 3s infinite ease-in-out;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
